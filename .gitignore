@@ -66,6 +66,8 @@ apps/frontend/public/g.js
 **/graphify-out/cache
 
 # Ruflo runtime
+.swarm/
+ruvector.db
 .claude-flow/daemon.pid
 .claude-flow/daemon-state.json
 .claude-flow/logs/
