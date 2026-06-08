@@ -6,11 +6,8 @@
       "Bash(pip *)",
       "Bash(node -e *)",
       "Bash(python *)",
-
       "Bash(git *)",
-
       "Bash(graphify *)",
-
       "Bash(ruflo *)",
       "Bash(taskkill *)",
       "Bash(netstat *)",
@@ -25,16 +22,14 @@
       "Bash(export *)",
       "Bash(unset *)",
       "Bash(sed *)",
-
       "Bash(powershell.exe -Command *)",
       "Bash(cmd //c *)",
       "Bash(MSYS_NO_PATHCONV=1 *)",
-
       "Read(//c/Users/kenyo/**)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
-
-      "mcp__ruflo__*"
+      "mcp__ruflo__*",
+      "WebSearch"
     ],
     "additionalDirectories": [
       "C:\\Users\\kenyo",
