@@ -38,7 +38,6 @@ import SkoolProvider from '@gitroom/frontend/components/new-launch/providers/sko
 import WhopProvider from '@gitroom/frontend/components/new-launch/providers/whop/whop.provider';
 import MeweProvider from '@gitroom/frontend/components/new-launch/providers/mewe/mewe.provider';
 import WeiboProvider from '@gitroom/frontend/components/new-launch/providers/weibo/weibo.provider';
-import XiaohongshuProvider from '@gitroom/frontend/components/new-launch/providers/xiaohongshu/xiaohongshu.provider';
 
 export const Providers = [
   {
@@ -176,10 +175,6 @@ export const Providers = [
   {
     identifier: 'weibo',
     component: WeiboProvider,
-  },
-  {
-    identifier: 'xiaohongshu',
-    component: XiaohongshuProvider,
   },
 ];
 export const ShowAllProviders = forwardRef((props, ref) => {
