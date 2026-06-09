@@ -101,9 +101,7 @@ export class ZhihuProvider extends SocialAbstract implements SocialProvider {
         body: JSON.stringify({
           title: settings.title,
           content: postDetails?.[0].message,
-          ...(settings?.canonical
-            ? { canonical_url: settings.canonical }
-            : {}),
+          ...(settings?.canonical ? { canonical_url: settings.canonical } : {}),
           ...(settings?.tags?.length
             ? { tags: settings.tags.map((t: any) => t.label || t) }
             : {}),

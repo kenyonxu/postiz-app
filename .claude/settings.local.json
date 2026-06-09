@@ -40,7 +40,17 @@
       "Bash(cat .eslintrc)",
       "Bash(node_modules/.bin/eslint --config eslint.config.mjs libraries/nestjs-libraries/src/dtos/posts/providers-settings/zhihu.tags.settings.dto.ts libraries/nestjs-libraries/src/dtos/posts/providers-settings/zhihu.settings.dto.ts libraries/nestjs-libraries/src/integrations/social/zhihu.provider.ts libraries/nestjs-libraries/src/integrations/integration.manager.ts libraries/nestjs-libraries/src/dtos/posts/providers-settings/all.providers.settings.ts)",
       "Bash(node_modules/.bin/eslint --config apps/frontend/eslint.config.mjs apps/frontend/src/components/new-launch/providers/zhihu/zhihu.provider.tsx apps/frontend/src/components/new-launch/providers/show.all.providers.tsx)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(docker info *)",
+      "Bash(docker compose *)",
+      "Bash(DATABASE_URL=\"postgresql://postiz-local:postiz-local-pwd@localhost:5432/postiz-db-local\" pnpm dlx prisma@6.5.0 db push --accept-data-loss --schema ./libraries/nestjs-libraries/src/database/prisma/schema.prisma)",
+      "Bash(jobs -l)",
+      "Bash(npx dotenv *)",
+      "Bash(DATABASE_URL=\"postgresql://postiz-local:postiz-local-pwd@localhost:5432/postiz-db-local\" npx dotenv -e .env -- npx nest start --entryFile=./apps/backend/src/main)",
+      "Bash(npx nest *)",
+      "Bash(node apps/backend/dist/apps/backend/src/main.js)",
+      "Bash(cp e:/GitHub/postiz-app/docs/specs/spec-phase1-zhihu.md \"E:\\\\GitHub\\\\Obsidian\\\\KaiKnowledgeBase\\\\KaiKnowledgeBase\\\\黏黏猫工作室\\\\Postiz/\")",
+      "Bash(cp e:/GitHub/postiz-app/docs/superpowers/plans/2026-06-09-zhihu-provider-phase1.md \"E:\\\\GitHub\\\\Obsidian\\\\KaiKnowledgeBase\\\\KaiKnowledgeBase\\\\黏黏猫工作室\\\\Postiz/\")"
     ],
     "additionalDirectories": [
       "C:\\Users\\kenyo",
