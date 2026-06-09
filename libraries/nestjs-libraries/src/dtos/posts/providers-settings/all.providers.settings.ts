@@ -25,6 +25,8 @@ import { MoltbookDto } from '@gitroom/nestjs-libraries/dtos/posts/providers-sett
 import { SkoolDto } from '@gitroom/nestjs-libraries/dtos/posts/providers-settings/skool.dto';
 import { WhopDto } from '@gitroom/nestjs-libraries/dtos/posts/providers-settings/whop.dto';
 import { MeweDto } from '@gitroom/nestjs-libraries/dtos/posts/providers-settings/mewe.dto';
+import { WeiboSettingsDto } from '@gitroom/nestjs-libraries/dtos/posts/providers-settings/weibo.settings.dto';
+import { XiaohongshuSettingsDto } from '@gitroom/nestjs-libraries/dtos/posts/providers-settings/xiaohongshu.settings.dto';
 
 export type ProviderExtension<T extends string, M> = { __type: T } & M;
 export type AllProvidersSettings =
@@ -61,6 +63,8 @@ export type AllProvidersSettings =
   | ProviderExtension<'zhihu', ZhihuSettingsDto>
   | ProviderExtension<'skool', SkoolDto>
   | ProviderExtension<'mewe', MeweDto>
+  | ProviderExtension<'weibo', WeiboSettingsDto>
+  | ProviderExtension<'xiaohongshu', XiaohongshuSettingsDto>
   | ProviderExtension<'whop', WhopDto>;
 
 type None = NonNullable<unknown>;
@@ -101,6 +105,8 @@ export const allProviders = (setEmpty?: any) => {
     { value: SkoolDto, name: 'skool' },
     { value: WhopDto, name: 'whop' },
     { value: MeweDto, name: 'mewe' },
+    { value: WeiboSettingsDto, name: 'weibo' },
+    { value: XiaohongshuSettingsDto, name: 'xiaohongshu' },
   ].filter((f) => f.value);
 };
 

@@ -256,6 +256,7 @@
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "^2.0.0-beta.32",
+    "@eslint/eslintrc": "^3.3.5",
     "@nestjs/schematics": "^11.1.0",
     "@nestjs/testing": "^11.1.21",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
