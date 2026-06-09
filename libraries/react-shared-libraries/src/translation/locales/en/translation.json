@@ -695,5 +695,15 @@
   "watch_tutorial_description": "Watch this short video to learn how to get the most out of Postiz",
   "back": "Back",
   "get_started": "Get Started",
-  "kick_select_channel": "Select Channel"
+  "kick_select_channel": "Select Channel",
+  "connect_zhihu": "Connect Zhihu",
+  "zhihu_api_key_placeholder": "Enter your Zhihu API Key",
+  "zhihu_api_key_help": "Get your API key from Zhihu Open Platform",
+  "zhihu_connected": "Zhihu account connected",
+  "zhihu_title_label": "Article Title",
+  "zhihu_title_placeholder": "Enter article title (at least 2 characters)",
+  "zhihu_canonical_label": "Canonical URL",
+  "zhihu_canonical_help": "Enter the original URL for copyright attribution",
+  "zhihu_tags_label": "Tags",
+  "zhihu_tags_max": "Maximum 5 tags"
 }

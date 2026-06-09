@@ -693,5 +693,15 @@
   "watch_tutorial_description": "观看这个简短的视频，学习如何最大程度地利用Postiz",
   "back": "返回",
   "get_started": "开始使用",
-  "kick_select_channel": "选择频道"
+  "kick_select_channel": "选择频道",
+  "connect_zhihu": "连接知乎",
+  "zhihu_api_key_placeholder": "请输入知乎 API Key",
+  "zhihu_api_key_help": "从知乎开放平台获取 API Key",
+  "zhihu_connected": "知乎账号已连接",
+  "zhihu_title_label": "文章标题",
+  "zhihu_title_placeholder": "请输入文章标题（至少2个字符）",
+  "zhihu_canonical_label": "规范链接",
+  "zhihu_canonical_help": "输入原文链接以声明版权",
+  "zhihu_tags_label": "文章标签",
+  "zhihu_tags_max": "最多添加5个标签"
 }
