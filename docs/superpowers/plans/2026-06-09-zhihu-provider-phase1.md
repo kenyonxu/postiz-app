@@ -1,6 +1,12 @@
 # 知乎 Provider — Phase 1 Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+>
+> **⚠️ 实地验证结果 (2026-06-09)**：计划已全部实施完成（10/10 任务，9 个提交）。知乎开放平台实测后发现：
+> - API 基地址为 `developer.zhihu.com/api/v1/`（非 spec 假设的 `api.zhihu.com/v4/`）
+> - 鉴权方式为 Bearer token + `X-Request-Timestamp`（非 API Key）
+> - **无内容发布 API**——知乎开放平台仅提供搜索/读取接口
+> - **结论**：Provider 开发链路验证目的已达到，但知乎无法作为发布渠道使用。建议 Phase 1 试点切换为微博。
 
 **Goal:** 走通 Postiz 中国平台 Connector 的完整 Provider 开发链路（后端 Provider → DTO → 注册 → 前端组件 → i18n），以知乎 API Key 模式为试点。
 

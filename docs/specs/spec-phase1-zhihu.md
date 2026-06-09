@@ -1,6 +1,14 @@
 # Postiz 知乎 Provider — Phase 1 Technical Spec
 
 > 📅 2026-06-09 · 牵星工作室 · 基于 `docs/china-connectors/roadmap-中国平台Connector实施路线.md`
+>
+> **⚠️ 实地验证结果 (2026-06-09)**：知乎开放平台 (`developer.zhihu.com`) 已实测验证：
+> - ✅ API 连通：Bearer token + `X-Request-Timestamp` 鉴权可用
+> - ✅ 搜索接口可用：`zhihu_search`、`global_search`、`hot_list`
+> - ❌ **无内容发布 API**：平台未公开文章/回答发布接口
+> - **结论**：知乎不适合作为 Postiz 发布渠道 Connector。Provider 代码作为开发模式验证已完成，但 `post()` 方法指向的端点不存在于公开 API 中。Phase 1 试点建议切换为**微博**（标准 OAuth 2.0 + REST API 发布，确认可用）。
+>
+> **知乎代码价值保留**：Provider 类、DTO、前端组件、注册模式均可作为后续中国平台开发的参考模板。
 
 ---
 
