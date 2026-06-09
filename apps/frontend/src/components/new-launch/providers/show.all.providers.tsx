@@ -1,6 +1,7 @@
 'use client';
 
 import DevtoProvider from '@gitroom/frontend/components/new-launch/providers/devto/devto.provider';
+import ZhihuProvider from '@gitroom/frontend/components/new-launch/providers/zhihu/zhihu.provider';
 import XProvider from '@gitroom/frontend/components/new-launch/providers/x/x.provider';
 import LinkedinProvider from '@gitroom/frontend/components/new-launch/providers/linkedin/linkedin.provider';
 import RedditProvider from '@gitroom/frontend/components/new-launch/providers/reddit/reddit.provider';
@@ -41,6 +42,10 @@ import WhopProvider from '@gitroom/frontend/components/new-launch/providers/whop
 import MeweProvider from '@gitroom/frontend/components/new-launch/providers/mewe/mewe.provider';
 
 export const Providers = [
+  {
+    identifier: 'zhihu',
+    component: ZhihuProvider,
+  },
   {
     identifier: 'devto',
     component: DevtoProvider,
