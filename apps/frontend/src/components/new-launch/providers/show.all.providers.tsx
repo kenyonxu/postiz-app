@@ -27,12 +27,10 @@ import NostrProvider from '@gitroom/frontend/components/new-launch/providers/nos
 import VkProvider from '@gitroom/frontend/components/new-launch/providers/vk/vk.provider';
 import { useLaunchStore } from '@gitroom/frontend/components/new-launch/store';
 import { useShallow } from 'zustand/react/shallow';
-import React, { FC, forwardRef, useEffect, useImperativeHandle } from 'react';
+import React, { FC, forwardRef, useImperativeHandle } from 'react';
 import { GeneralPreviewComponent } from '@gitroom/frontend/components/launches/general.preview.component';
 import { IntegrationContext } from '@gitroom/frontend/components/launches/helpers/use.integration';
-import { Button } from '@gitroom/react/form/button';
 import { useT } from '@gitroom/react/translation/get.transation.service.client';
-import { PostComment } from '@gitroom/frontend/components/new-launch/providers/high.order.provider';
 import WordpressProvider from '@gitroom/frontend/components/new-launch/providers/wordpress/wordpress.provider';
 import ListmonkProvider from '@gitroom/frontend/components/new-launch/providers/listmonk/listmonk.provider';
 import GmbProvider from '@gitroom/frontend/components/new-launch/providers/gmb/gmb.provider';
@@ -260,6 +258,7 @@ export const ShowAllProviders = forwardRef((props, ref) => {
     </div>
   );
 });
+ShowAllProviders.displayName = 'ShowAllProviders';
 
 export const Empty: FC = () => {
   return null;
