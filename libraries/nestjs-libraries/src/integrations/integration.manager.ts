@@ -6,6 +6,7 @@ import { SocialProvider } from '@gitroom/nestjs-libraries/integrations/social/so
 import { LinkedinProvider } from '@gitroom/nestjs-libraries/integrations/social/linkedin.provider';
 import { RedditProvider } from '@gitroom/nestjs-libraries/integrations/social/reddit.provider';
 import { DevToProvider } from '@gitroom/nestjs-libraries/integrations/social/dev.to.provider';
+import { ZhihuProvider } from '@gitroom/nestjs-libraries/integrations/social/zhihu.provider';
 import { HashnodeProvider } from '@gitroom/nestjs-libraries/integrations/social/hashnode.provider';
 import { MediumProvider } from '@gitroom/nestjs-libraries/integrations/social/medium.provider';
 import { FacebookProvider } from '@gitroom/nestjs-libraries/integrations/social/facebook.provider';
@@ -62,6 +63,7 @@ export const socialIntegrationList: Array<SocialAbstract & SocialProvider> = [
   new TelegramProvider(),
   new NostrProvider(),
   new VkProvider(),
+  new ZhihuProvider(),
   new MediumProvider(),
   new DevToProvider(),
   new HashnodeProvider(),
