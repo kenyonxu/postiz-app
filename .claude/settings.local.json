@@ -29,7 +29,18 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "mcp__ruflo__*",
-      "WebSearch"
+      "WebSearch",
+      "Bash(npx eslint *)",
+      "Bash(ls node_modules/.bin/eslint)",
+      "Bash(node_modules/.bin/eslint --version)",
+      "Bash(ls apps/frontend/node_modules/.bin/eslint)",
+      "Bash(apps/frontend/node_modules/.bin/eslint --version)",
+      "Bash(cat .eslintrc.js)",
+      "Bash(cat .eslintrc.json)",
+      "Bash(cat .eslintrc)",
+      "Bash(node_modules/.bin/eslint --config eslint.config.mjs libraries/nestjs-libraries/src/dtos/posts/providers-settings/zhihu.tags.settings.dto.ts libraries/nestjs-libraries/src/dtos/posts/providers-settings/zhihu.settings.dto.ts libraries/nestjs-libraries/src/integrations/social/zhihu.provider.ts libraries/nestjs-libraries/src/integrations/integration.manager.ts libraries/nestjs-libraries/src/dtos/posts/providers-settings/all.providers.settings.ts)",
+      "Bash(node_modules/.bin/eslint --config apps/frontend/eslint.config.mjs apps/frontend/src/components/new-launch/providers/zhihu/zhihu.provider.tsx apps/frontend/src/components/new-launch/providers/show.all.providers.tsx)",
+      "Bash(npx tsc *)"
     ],
     "additionalDirectories": [
       "C:\\Users\\kenyo",
